@@ -9,5 +9,5 @@ int run(long int st)
     horas = (int)min/60;
     min = (int)min%60;
     printf("La convercion a horas, minutos y segundos es: %d hs %d min %d seg", horas, min, seg);
-    return 0;
+    return 1;
 }
